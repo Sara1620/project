@@ -378,14 +378,6 @@ nav.scroll .phone-num:hover{
     }
 }
 
-@media (max-width: 575px){
-    .landing .img-hello .hello,
-    .landing .available,
-    .landing .main-info .begin{
-        font-size: 14px;
-    }
-}
-
 .landing .begin{
     color: white;
     background-color: var(--blue-color);
