@@ -27,3 +27,10 @@ nav_toggler.onclick = function() {
     nav_links2.classList.toggle("active");
     nav_toggler.classList.toggle("active"); // Optional: for toggler animation
 };
+
+document.querySelectorAll(".nav-links a").forEach(link => {
+    link.addEventListener("click", () => {
+        nav_links2.classList.remove("active"); // close menu
+        nav_toggler.classList.remove("active"); // reset toggler icon
+    });
+});
