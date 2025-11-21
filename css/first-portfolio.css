@@ -676,6 +676,16 @@ nav.scroll .phone-num:hover{
     }
 }
 
+@media (max-width: 575px){
+    .information .stats .stat{
+    width: calc(50% - 10px);
+    }
+    
+    .information .stats .stat .stat-info{
+        font-size: 12px;
+    }
+}
+
 .companies{
     background-color: white;
 }
